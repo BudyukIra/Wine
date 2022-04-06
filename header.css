@@ -1,13 +1,11 @@
-.body__wrapper {
-    width: 100%;
-    border: 1px solid red;
-}
-
 .header__wrapper {
-    border: 1px solid red;
     height: 70px;
     display: flex;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 4px 4px #E0E0E0;
+    background-color: #ffffff;
 }
 
 .header__inner {
@@ -21,12 +19,24 @@
 }
 
 .header__link {
-    margin: 0 25px;
+    margin: 0 18px;
     font-family: 'Montserrat', sans-serif;
     color: #978250;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 900;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
+}
+
+.-broun {
+    padding: 2px 15px;
+    border: 1px solid #978250;
+    background-color: #978250;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.header__link:hover {
+    color: #000000;
 }

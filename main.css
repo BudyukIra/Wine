@@ -1,0 +1,12 @@
+body {
+    margin: auto;
+}
+
+.body__wrapper {
+    border: 1px solid red;
+    height: 5000px;
+}
+
+.wrapper {
+    height: 1000px;
+}
