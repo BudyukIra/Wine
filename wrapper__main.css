@@ -1,0 +1,36 @@
+.wrapper__main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.wrapper__inner {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.wrapper__logo {
+    width: 300px;
+    height: 222px;
+}
+
+.wrapper__inner--bg {
+    background: url(alcohol1.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper__text--yellow {
+    font-family: 'Poppins';
+    font-size: 100px;
+    line-height: 128px;
+    color: #FCDE03;
+    text-align: center;
+    text-shadow: 0 4px 4px #000000;
+    max-width: 1576px;
+}

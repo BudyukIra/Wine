@@ -1,0 +1,93 @@
+.wrapper__holder {
+    width: 100%;
+    display: flex;
+}
+
+.wrapper__box {
+    width: 50%;
+}
+
+.-shadow {
+    box-shadow: 0 8px 20px #E0E0E0;
+}
+
+.wrapper__column {
+    margin: 150px;
+}
+
+.wrapper__signboard {
+    background: url(ourstory1.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper__box--pink {
+    color: #FF6F66;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 900px;
+}
+
+.wrapper__box--pink::after {
+    content: "";
+    display: block;
+    width: 63px;
+    height: 2px;
+    background-color: #B9DBEA;
+    margin: 15px 0;
+}
+
+.wrapper__box--italics {
+    font-family: 'Libre Baskerville';
+    font-size: 33px;
+    color: #3D6299;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 43px;
+    font-weight: 300;
+}
+
+.wrapper__text {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #000000;
+    line-height: 30px;
+}
+
+.wrapper__our-story--family {
+    background: url(ourstory2.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper__column--memories {
+    margin: 90px;
+}
+
+.wrapper__wine {
+    max-width: 1164px;
+    max-height: 1325px;
+    width: 540px;
+    height: 615px;
+    margin: 40px;
+}
+
+.-grey {
+    background-color: #D6DEE8;
+}
+
+.wrapper__info {
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+    border-spacing: 10px;
+}
+
+.-font {
+    font-family: 'Space Mono';
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 600;
+}

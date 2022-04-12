@@ -6,6 +6,7 @@
     position: fixed;
     box-shadow: 0 4px 4px #E0E0E0;
     background-color: #ffffff;
+    z-index: 1;
 }
 
 .header__inner {
@@ -29,7 +30,7 @@
     letter-spacing: 1px;
 }
 
-.-broun {
+.-brown {
     padding: 2px 15px;
     border: 1px solid #978250;
     background-color: #978250;
