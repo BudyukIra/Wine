@@ -1,0 +1,58 @@
+.wrapper__locate {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.wrapper__text--italic-blue {
+    font-family: "Sacramento";
+    font-size: 26px;
+    color: #4666B6;
+    font-weight: 500;
+}
+
+.wrapper__text--blue {
+    font-family: "Anton";
+    font-size: 35px;
+    color: #4666B6;
+    line-height: 45px;
+}
+
+.wrapper__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    height: 1000px;
+}
+
+.wrapper__link {
+    text-decoration: none;
+}
+
+.wrapper__text--big {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #000;
+    display: block;
+    font-weight: 600;
+}
+
+.wrapper__text--small {
+    font-weight: 500;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.wrapper__link:hover .wrapper__text--big,
+.wrapper__link:hover .wrapper__text--small {
+    color: #FF6F66;
+}
+
+.wrapper__links--box {
+    display: flex;
+    justify-content: space-around;
+}
