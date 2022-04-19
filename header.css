@@ -41,3 +41,26 @@
 .header__link:hover {
     color: #000000;
 }
+
+.header__menu--mobile {
+    position: absolute;
+    right: 30px;
+}
+
+.header__menu--mobile::after {
+    display: none;
+    content: " ";
+    border-top: 3px solid #978250;
+    border-bottom: 3px solid #978250;
+    width: 25px;
+    height: 5px;
+}
+
+.header__menu--mobile::before {
+    display: none;
+    content: " ";
+    border-bottom: 3px solid #978250;
+    width: 25px;
+    height: 5px;
+    margin: 5px 0;
+}

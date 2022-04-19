@@ -1,6 +1,5 @@
 .wrapper__main {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
 }
 
 .wrapper__inner {
@@ -10,11 +9,13 @@
     align-items: center;
     justify-content: space-around;
     padding: 35px;
+    position: relative;
+    width: 30%;
 }
 
 .wrapper__logo {
-    width: 300px;
-    height: 222px;
+    width: 90%;
+    height: auto;
 }
 
 .wrapper__inner--bg {
@@ -23,6 +24,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 70%;
 }
 
 .wrapper__text--yellow {

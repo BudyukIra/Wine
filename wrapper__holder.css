@@ -5,16 +5,18 @@
 
 .wrapper__box {
     width: 50%;
+    flex-basis: 50%;
 }
 
 .-shadow {
     box-shadow: 0 8px 20px #E0E0E0;
+    width: 100%;
+    height: auto;
 }
 
 .wrapper__column {
-    margin: 150px;
-    max-width: 600px;
-    max-height: 1400px;
+    min-width: 376px;
+    min-height: 528px;
 }
 
 .wrapper__column--memories {

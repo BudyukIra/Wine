@@ -1,5 +1,4 @@
 .wrapper__locate {
-    width: 1200px;
     text-align: center;
     margin: auto;
     padding-top: 80px;
@@ -55,4 +54,13 @@
 .wrapper__links--box {
     display: flex;
     justify-content: space-around;
+}
+
+.-indent::after {
+    content: "";
+    display: block;
+    width: 63px;
+    height: 2px;
+    background-color: #B9DBEA;
+    margin: 15px auto;
 }

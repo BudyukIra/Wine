@@ -1,5 +1,10 @@
 body {
     margin: auto;
+    width: 100%
+}
+
+.body__wrapper {
+    width: 100%;
 }
 
 .wrapper__beer {
@@ -89,4 +94,31 @@ body {
     height: 20px;
     background-color: #F5D327;
     margin: 100px 0;
+}
+
+@media screen and (max-width: 959px) {
+    .-menu,
+    .wrapper__button,
+    .wrapper__button:after {
+        display: none;
+    }
+    .header__menu--mobile::after,
+    .header__menu--mobile::before {
+        display: block;
+    }
+    .wrapper__holder {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1384px) {
+    .wrapper__column {
+        padding: 90px;
+    }
+}
+
+@media screen and (min-width: 1385px) {
+    .wrapper__column {
+        padding: 150px;
+    }
 }
