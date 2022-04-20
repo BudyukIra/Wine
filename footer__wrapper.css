@@ -44,6 +44,7 @@
     text-transform: uppercase;
     background-color: transparent;
     width: 360px;
+    outline: none;
 }
 
 .footer__submit {

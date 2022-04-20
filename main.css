@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    width: 100%
+    width: 100%;
 }
 
 .body__wrapper {
@@ -99,15 +99,30 @@ body {
 @media screen and (max-width: 959px) {
     .-menu,
     .wrapper__button,
-    .wrapper__button:after {
+    .wrapper__button:after,
+    .wrapper__inner {
         display: none;
     }
     .header__menu--mobile::after,
     .header__menu--mobile::before {
         display: block;
     }
-    .wrapper__holder {
+    .wrapper__holder,
+    .wrapper__photo--part,
+    .wrapper__links--box {
         flex-direction: column;
+    }
+    .wrapper__inner--bg {
+        width: auto;
+    }
+    .wrapper__box.-shadow {
+        height: 90vh;
+    }
+    .wrapper__box {
+        width: 100%;
+    }
+    .wrapper__photo--part>div {
+        margin: 15px;
     }
 }
 

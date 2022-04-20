@@ -45,6 +45,8 @@
 .header__menu--mobile {
     position: absolute;
     right: 30px;
+    height: 70px;
+    padding-top: 30px;
 }
 
 .header__menu--mobile::after {
@@ -63,4 +65,33 @@
     width: 25px;
     height: 5px;
     margin: 5px 0;
+}
+
+.header__menu--hidden {
+    display: none;
+    margin-top: 440px;
+    background-color: #F5D327;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.header__link--mobile {
+    display: none;
+    height: 70px;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__menu--mobile:hover .header__menu--hidden,
+.header__menu--mobile:hover .header__link--mobile {
+    display: block;
 }
